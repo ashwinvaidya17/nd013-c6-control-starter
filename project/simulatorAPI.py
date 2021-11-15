@@ -802,6 +802,7 @@ def game_loop(args):
             pygame.HWSURFACE | pygame.DOUBLEBUF)
 
         hud = HUD(args.width, args.height)
+        world = client.load_world('Town03')
         world = World(client.get_world(), hud, args)
         controller = KeyboardControl(world)
 

@@ -1,2 +1,6 @@
 .DS_Store
 .idea
+CMakeFiles/
+*.o
+CMakeCache.txt
+project/pid_controller/pid_controller
